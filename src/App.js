@@ -1,13 +1,11 @@
-import Message from "./Components/ProjectsPage/Header/header";
-import index from "./Components/ProjectsPage/index";
+import ProjectPage from "./Components/ProjectPage";
 
-function App() {
-  return (
-    <div>
-      <Message />
-      
-    </div>
-  );
+const App = () => {
+    return (
+        <div className>
+            <ProjectPage />
+        </div>
+    )
 }
 
 export default App;
