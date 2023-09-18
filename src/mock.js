@@ -1,17 +1,14 @@
 
-// import AvatarImage from './Components/Images/portfolio.jpeg';
+import AvatarImage from './Components/Images/portfolio.jpeg';
 
 const profiles = [
     {
-        Title: 'Portfolio Website',
-        Url: 'www.sample.com',
-        Description: 'We build website for a living',
+        title: 'Portfolio Website',
+        url: 'www.sample.com',
+        desc: 'We build website for a living',
+        image: AvatarImage,
     },
-    {
-        Title: 'Portfolio Website',
-        Url: 'www.sample.com',
-        Description: 'We build website for a living',
-    }
+   
 ]
 
 export default profiles
