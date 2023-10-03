@@ -1,20 +1,23 @@
 .page-form{
     display: flex;
-    border: .1rem solid #c27676;
-    border-radius: .6rem;
-    padding: .5rem;
-    row-gap: 1rem;
+    /* border: .1rem solid #c27676; */
+    row-gap: .5rem;
     flex-direction: column;
      width: 25%;
-    margin: 3rem auto;
+    margin: 0 auto;
 }
-/* .page-form .title {
-    font-size: 5.5rem;
+.page-form .title {
+    font-size: 1rem;
     font-weight: bold;
-} */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    /* margin: 0 1rem; */
+    color: #61AAD1;
+}
 .page-form img {
     width: 100%;
-    padding: 1rem 0;
+    height: 35vh;
     padding-bottom: 1rem;
     border-radius: 1.2rem;
 }

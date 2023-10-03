@@ -59,7 +59,7 @@ const PortfolioPage = () => {
 
             <div className="page-form">
                 <div className="title">
-                    {params.id === undefined ? 'Add' : 'Edit'} Contact
+                    {params.id === undefined ? 'Delete' : 'Edit'} Contact
                 </div>
                 <img src={profileById ? profileById.image : PlaceholderImg} alt="Avatar" />
                 <input type="file" />

@@ -3,7 +3,7 @@ import "../ProjectCard/styles.css";
 import profiles from '../../mock'
 
 
-const ProjectList = (props) => {
+const ProjectCard = (props) => {
   const navigate = useNavigate();
 
   // const handleView = () => {
@@ -47,4 +47,4 @@ const ProjectList = (props) => {
   );
 };
 
-export default ProjectList;
+export default ProjectCard;
