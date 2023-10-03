@@ -1,32 +1,42 @@
-import AvatarImage from "../images/portfolio.jpg";
 import { useNavigate } from 'react-router-dom';
 import "../ProjectCard/styles.css";
+import profiles from '../../mock'
 
 
 const ProjectList = (props) => {
   const navigate = useNavigate();
 
-  const handleView = () => {
-      navigate('/PortfolioPage');
+  // const handleView = () => {
+  //     navigate('/PortfolioPage');
+
+  const handleDelete = () => {
+    const index = Number(props.id) -1;
+    profiles.splice(index, 1);
+  
   }
 
   return (
     <div className="container">
       <div className="project-folder">
         <div>
-          <img src={AvatarImage} alt="avatar" />
+          <img src={props.image} alt="avatar" />
 
           <div className="desc">
             <span>
               <h4>Title:</h4> {props.title}
             </span><br/>
             <span>
-              <h4>Url:</h4> {props.url}
+              <h4 className="url-link">Url: <a href={props.url} target="blank"> {props.urlName}</a></h4>
             </span><br/>
             <span>
              <h4>Description:</h4> {props.desc}
             </span><br/>
-            <button onClick={handleView}> VIEW PORTFOLIO</button>
+            <div className="button">
+              <button onClick={(event) => { navigate(`/PortfolioPage/${props.id}`) }}>
+                Edit
+              </button>
+              <button onClick={handleDelete}> Delete</button>
+            </div>
           </div>
         </div>
       </div>

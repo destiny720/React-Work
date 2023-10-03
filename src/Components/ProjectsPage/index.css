@@ -1,1 +1,14 @@
 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    margin: 3rem;
+    
+}
+
+.project-list .profile {
+    flex-basis: 28.05%;
+}

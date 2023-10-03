@@ -21,16 +21,9 @@ const Header = () => {
         location.pathname === '/'
        ?<button onClick={handleAdd}>Add Project</button>
        : <button onClick={handleCancel}>Cancel</button>
+
       }
-      {
-        // <nav>
-        //   <ul>
-        //     <li>Home</li>
-        //     <li>About</li>
-        //     <li>Service</li>
-        //   </ul>
-        // </nav>
-      }
+    
       
     </div>
   );

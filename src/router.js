@@ -8,7 +8,7 @@ const router = createBrowserRouter([
         element: <ProjectsPage />,
     },
     {
-        path: '/PortfolioPage',
+        path: '/PortfolioPage/:id?',
         element: <PortfolioPage />,
     }
 ])

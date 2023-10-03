@@ -1,0 +1,42 @@
+.page-form{
+    display: flex;
+    border: .1rem solid #c27676;
+    border-radius: .6rem;
+    padding: .5rem;
+    row-gap: 1rem;
+    flex-direction: column;
+     width: 25%;
+    margin: 3rem auto;
+}
+/* .page-form .title {
+    font-size: 5.5rem;
+    font-weight: bold;
+} */
+.page-form img {
+    width: 100%;
+    padding: 1rem 0;
+    padding-bottom: 1rem;
+    border-radius: 1.2rem;
+}
+.page-form input{
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: 0.05rem solid lightgray;
+    padding: 0.5rem 1rem;
+}
+.page-form textarea {
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: 0.05rem solid lightgray;
+    padding: 0.8rem;
+}
+.page-form button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #61AAD1;
+    padding-top: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+}
