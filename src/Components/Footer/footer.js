@@ -8,21 +8,22 @@ const footer = () => {
         <div className='footer-container'>
             <div className='left'>
                 <div className='location'>
-                    <FaHome size={20} style={{color: '#fdfbfb', marginRight:"1rem"}} /> 
-                </div>
+                    <FaHome size={30} style={{color: '#fdfbfb', marginRight:"1rem"}} /> 
                 <div>
-                  <p>sdbvkfnkjfn</p>
-                  <p>sdbvkfnkjfn</p>
+                  123 kings court estate<br /> ikeja lagos state
                 </div>
+                </div>
+
+                
                 <div className='phone' >
                   <h4>
-                  <FaPhone size={20} style={{color: '#fdfbfb', marginRight:"1rem"}} />
+                  <FaPhone size={25} style={{color: '#fdfbfb', marginRight:"1rem"}} />
                     08109088360 
                   </h4>
                 </div>
                 <div className='Email' >
                   <h4>
-                  <FaMailBulk size={20} style={{color: '#fdfbfb', marginRight:"1rem"}} />
+                  <FaMailBulk size={25} style={{color: '#fdfbfb', marginRight:"1rem"}} />
                     destinyojei@gmail.com 
                   </h4>
                 </div>
@@ -36,17 +37,13 @@ const footer = () => {
 
               </p>
               <div className='social-link'>
-              <FaFacebook size={30} style={{color: '#fdfbfb',
-               marginRight:"1rem"}} /> 
+                <FaFacebook  className='face' /> 
 
-              <FaTwitter size={30} style={{color: '#fdfbfb',
-               marginRight:"1rem"}} /> 
+                <FaTwitter className='twi'/> 
 
-              <FaLinkedin size={30} style={{color: '#fdfbfb',
-               marginRight:"1rem"}} /> 
+                <FaLinkedin  className='link'/> 
 
-              <FaGithub size={30} style={{color: '#fdfbfb',
-               marginRight:"1rem"}} /> 
+                <FaGithub className='github'/> 
 
               </div>
             </div>

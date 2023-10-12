@@ -10,7 +10,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px; */
     display: flex;
-    justify-items: center;
+    align-items: center;
     justify-content: space-around;
 }
 .left{
@@ -20,9 +20,11 @@
     flex-direction: column;
     padding: 1rem;
 }
+
 .location{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 0.8rem;
 }
 .location p{
@@ -37,7 +39,25 @@
 }
 .social-link{
     margin-top: 1rem;
+    font-size: 30px;
+    color: #fdfbfb;
+    display: flex;
+    justify-content: space-around;
 }
+.social-link .face:hover{
+    color: #3b5998;
+}
+.social-link .twi:hover{
+    color: #00acee;
+}
+.social-link .link:hover{
+    color: #0072b1;
+}
+.social-link .github:hover{
+    color: #000;
+}
+
+
 
 @media screen and (max-width: 640px) {
     .footer-container{
