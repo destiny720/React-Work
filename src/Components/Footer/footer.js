@@ -30,11 +30,10 @@ const footer = () => {
             </div>
             <div className='right'>
               <h4>About the company</h4>
-              <p>fdvkmvk jiojtiogti gviov ioy ioyvio ioyn<br />
-                dojofndjnfuc ioc fjrifjeriofjciofjcrfierf<br />
-                ocjiofjriocjrioriofiorjciorjiociorciorgio<br />
-                jnjkrncjrnfjkrnfjkrnfjkrnfjkrnjkrngjkrjkgjgc
-
+              <p>I'm a front-end web developer and designer, programmer, and a content writer.<br />
+              I have an incorrigible passion for coding, creativity,<br />
+              writing computer programs, and developing and designing wesites<br />
+              You have imagined something great, let's create it together!
               </p>
               <div className='social-link'>
                 <FaFacebook  className='face' /> 

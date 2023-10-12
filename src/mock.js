@@ -2,6 +2,8 @@
 import AvatarImage from './components/images/portfolio.jpg';
 import AvatarImage1 from './components/images/1portfolio.jpg';
 import AvatarImage2 from './components/images/2portfolio.jpg';
+import AvatarImage3 from './components/images/3portfolio.png';
+import AvatarImage4 from './components/images/4portfolio.png';
 
 const profiles = [
     {
@@ -9,7 +11,7 @@ const profiles = [
         title: 'Portfolio Website',
         url: 'https://desttech.netlify.app',
         urlName: 'desttech',
-        desc: `Front-end web developer and designer, programmer. I have an incorrigible passion for coding, creativity,programming.`,
+        desc: `Explore the interactive narrative of my professional journey, where each page unfolds like a chapter in the book of my career.`,
         image: AvatarImage1,
     },
     {
@@ -23,13 +25,22 @@ const profiles = [
     },
     {
         id: 3,
-        title: 'Facebook Form',
-        url: 'www.sample.com',
-        desc: 'We build website for a living',
-        image: AvatarImage,
+        title: 'Salon Website',
+        url: 'https://haircutx.netlify.app/',
+        urlName: 'hairstylist',
+        desc: 'Navigate through our digital lookbook, a gallery of inspiration that showcases the latest trends and timeless classics.',
+        image: AvatarImage3,
     },
     {
         id: 4,
+        title: 'Clone Facebook',
+        url: 'https://maxwelbook.netlify.app/',
+        urlName: 'maxwelbook',
+        desc: 'Social connectivity as you create your digital identity, connect with friends, and share the mosaic of your life.',
+        image: AvatarImage4,
+    },
+    {
+        id: 5,
         title: 'Facebook Form',
         url: 'www.sample.com',
         desc: 'We build website for a living',
