@@ -1,5 +1,12 @@
 label{
     margin-bottom: 0.5rem;
+    color: #efefef;
+}
+body{
+    background: #000;
+    opacity: .9;
+
+    
 }
 
 form{
@@ -16,6 +23,7 @@ form input, form textarea{
     background-color: rgba(236, 213, 213, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
     border-color: #efefef;
+    color: #ffffffa4;
 }
 .btn{
     padding: .9rem 1rem;
