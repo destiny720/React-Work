@@ -11,6 +11,7 @@
   .header h2 {
     margin: 0;
     color: #0e8df2;
+    cursor: pointer;
   }
 
   .header button {
@@ -24,4 +25,8 @@
 
   .header button:hover {
     background-color: #0056b3;
+  }
+  .contact{
+    position: absolute;
+    left: 80%;
   }

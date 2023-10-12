@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Header from "../Header/header";
 import profiles from "../../mock"
-import PlaceholderImg from "../images/Placeholder.png"
+import PlaceholderImg from "../images/placeholder.png"
 import "./styles.css"
 
 const PortfolioPage = () => {

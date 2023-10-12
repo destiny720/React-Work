@@ -1,22 +1,25 @@
 
 import AvatarImage from './components/images/portfolio.jpg';
+import AvatarImage1 from './components/images/1portfolio.jpg';
+import AvatarImage2 from './components/images/2portfolio.jpg';
 
 const profiles = [
     {
         id: 1,
         title: 'Portfolio Website',
-        url: 'https://www.google.com',
-        urlName: 'google',
-        desc: 'We build website for a living',
-        image: AvatarImage,
+        url: 'https://desttech.netlify.app',
+        urlName: 'desttech',
+        desc: `Front-end web developer and designer, programmer. I have an incorrigible passion for coding, creativity,programming.`,
+        image: AvatarImage1,
     },
     {
         id: 2,
-        title: 'Ecommance Website',
-        url: 'https://www.sample.com',
-        urlName: 'sample',
-        desc: 'We build website for a living biuewuw wbfiubui jduihdu jhvuihu jdncjksc sknvkjcn jcnvkjnc njkcvxnjcvnx jcnvkjnc kcnjkcn',
-        image: AvatarImage,
+        title: 'Website Agency',
+        url: 'https://techvaults.netlify.app',
+        urlName: 'techvaults',
+        desc: `Dive into the showcase of my work, where each project is a testament to my passion for blending functionality with 
+        aesthetics.`,
+        image: AvatarImage2,
     },
     {
         id: 3,

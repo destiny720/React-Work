@@ -2,6 +2,7 @@ import "./index.css";
 import Header from "../Header/header";
 import ProjectList from "../ProjectCard";
 import profiles from "../../mock";
+import Footer from '../Footer/footer'
 
 const ProjectPage = () => {
   return (
@@ -22,6 +23,7 @@ const ProjectPage = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };
